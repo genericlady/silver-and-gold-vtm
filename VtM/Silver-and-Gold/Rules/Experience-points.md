@@ -2,7 +2,7 @@
 title: Experience Points
 description: Experience points allow you to make your character more formidable
 published: true
-date: 2023-01-01T01:03:31.025Z
+date: 2023-01-01T01:04:19.585Z
 tags: rules, house rules
 editor: markdown
 dateCreated: 2021-08-16T00:38:50.120Z
@@ -11,7 +11,7 @@ dateCreated: 2021-08-16T00:38:50.120Z
 Experience points, Chapters and Missions. 
 At the end of each Chapter, which will usually mean "Mission," and which might be single play session or take multiple sessions, every character will normally receive from 1-8 experience points.
 - 	You will get 1 point if you were present and participated throughout the mission. 
--		You may get between 1-3 points depending on the outcome of the chapter. A marginal succcess (or, depending on the circumstances, a draw) would get a single point, and spectacular outcome would get 3.
+- You may get between 1-3 points depending on the outcome of the chapter. A marginal succcess (or, depending on the circumstances, a draw) would get a single point, and spectacular outcome would get 3.
 - 	You may get an additional 1-2 points for trying to do new things or pushing your limits, even if you failed. 
 - 	You may get an additional 1-2 points for roleplaying, especially if you play your Demeanor, personal background, and the like.
 Also, at the end of a chapter, each group can vote for its MVP; that is the player who worked hardest or did the most to further the group goals. That person receives 1 additional point. If no single player receives the most votes, no one receives the point.

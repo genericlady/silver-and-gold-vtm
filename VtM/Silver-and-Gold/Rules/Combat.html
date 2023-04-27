@@ -2,12 +2,30 @@
 title: Combat Rules
 description: A detailed explanation of combat, with maneuvers
 published: true
-date: 2022-11-04T22:21:25.407Z
+date: 2023-04-27T16:49:03.649Z
 tags: rules, combat
 editor: ckeditor
 dateCreated: 2022-03-30T03:12:14.187Z
 -->
 
+<p>4/27/23 - Important Changes to Streamline Combat:</p>
+<p>We will no longer making separate Damage or Soak rolls. I am adapting the rules from DAV20 (Dark Ages v 20).</p>
+<ul>
+  <li>Damage is calculated by taking the number of extra successes (Attack Successes - Defense Successes - 1) and adding that to the Damage Rating of the weapon or maneuver. Example: Brenda stabs at the ghoul with her cane sword. The ghoul attempts to dodge. Brenda gets 3 successes on her attack, and the ghoul gets one on his dodge (3-1-1=1). Brenda adds her 1 additional success to the cane sword's damage rating (STR+2), and with her STR of 1 she potentially will inflict 4 levels of lethal damage.</li>
+  <li>Soak - There is no more rolling of Soak dice. Instead, characters possess Soak Ratings:<ul>
+      <li>Mortals (except ghouls) - possess a soak rating equal to their Stamina. Soak only applies to bashing damage (except for some unusual mortals / circumstances).</li>
+      <li>Ghouls - possess a soak rating of Stamina + Fortitude. Ghouls apply their full soak rating to bashing damage, and half their rating to lethal damage.</li>
+      <li>Vampires - possess a soak rating of Stamina + Fortitude. Vampires apply their full rating to bashing damage and lethal damage (and the remaining bashing damage is still halved to a minimum of 0). Vampires only apply Fortitude to aggravated damage.</li>
+      <li>Instead of rolling, compare the defender's Soak Rating to the potential damage. If the amount of potential damage equals ½ of the Soak Rating (rounded down) or less, the attack does no damage. Otherwise, subtract the Soak Rating from the potential damage; the result is the amount of health levels lost. If the net amount is 0 or less, the attack does 1 level of damage.</li>
+      <li>Examples:&nbsp;<ul>
+          <li>If the ghoul that Brenda attacked had 3 Stamina and 1 Fortitude, they have a Soak Rating of 4. Since the damage is lethal, the rating is halved (2). Subtracting the modified Soak Rating (2) from the potential damage (4) tells us the ghoul receives 2 lethal wound levels.</li>
+          <li>&nbsp;If the damage had been bashing damage instead of lethal, the ghoul's soak rating wouldn't have been halved, and the ghoul would have instead received 1 bashing wound level (4 damage - 4 soak rating = 0, minimum 1 damage).&nbsp;</li>
+          <li>If, instead of 4 points of lethal damage, Brenda had only done 1 point of lethal damage, the attack would have done NO damage. This is because the ghoul's soak rating (halved, due to the lethal damage) is 2, and the 1 point of damage is only half of that rating.&nbsp;</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
 <p>(This is the combat rules. Weapons are found <a href="/VtM/Silver-and-Gold/Encyclopedia/Things/Firearms-and-other-weapons">here</a>.)</p>
 <p>Combat in VtM is broken into turns of about 3 seconds. Each turn starts with a description of the current field of combat and then afterwards is broken into 3 stages: Initiative, Declaration of Actions, and Resolution.&nbsp;</p>
 <ol>
@@ -36,7 +54,7 @@ dateCreated: 2022-03-30T03:12:14.187Z
   </li>
   <li><strong>Resolution</strong>:<ol>
       <li><strong>Acts and Attacks: </strong>Attacks and other actions are then resolved in order of initiative, except as noted above (e.g., delayed or aborted actions). Characters roll the appropriate Attribute/Ability combination, as noted under "Maneuvers," against Difficulty 6 (usually). When attacking, the attacker's successes are compared to any defense maneuver successes by the target; as usual, whoever has more, wins. A failure (or having fewer successes than the target, simply means that the attack has failed. A botch means something nasty has happened.</li>
-      <li><strong>Doing Damage: </strong>If the action was an attack, damage is rolled. The attacker receives an extra die in their damage dice pool for each extra success they achieved (taking into account any successes from the target's defensive maneuver). Damage dice pools are as listed for the weapon or maneuver. Note that damage dice rolls cannot botch; rolling a "1" with no successes just means you failed to do damage.</li>
+      <li><strong>Doing Damage: See above for new rules. </strong><s>If the action was an attack, damage is rolled. The attacker receives an extra die in their damage dice pool for each extra success they achieved (taking into account any successes from the target's defensive maneuver). Damage dice pools are as listed for the weapon or maneuver. Note that damage dice rolls cannot botch; rolling a "1" with no successes just means you failed to do damage.</s></li>
       <li><strong>Pulling your punch</strong>: It is possible to pull your punch by rolling Self Control, Difficulty 7. You may eliminate up to as many successes as you achieved on your roll. Helpful hint: If you are attacking a mortal, don't activate Potence if you don't want to kill them. Knowing is half the battle. You cannot pull punches in ranged combat.</li>
       <li><strong>Targeting</strong>: You may target a specific location on the subject of your attack. This raises the Difficulty by 1-3 depending on the size and accessibility of the target (arm is +1, head is +2, eye is +3). This adds (Difficulty modifier-1) dice to the damage pool. Additionally, an attack that normally does bashing damage can be changed to lethal depending on the target.</li>
       <li><strong>Damage Types: </strong>There are three types of damage. Damage may or may not be "soaked" (reduced), depending on the type of damage and the type of target:<ol>
@@ -46,12 +64,14 @@ dateCreated: 2022-03-30T03:12:14.187Z
           <li>Damage is recorded on the character sheet by a combination of marking blank spaces and converting lesser damage types. This is easier to demonstrate than to explain in text, but refer to VtM20 p.284.</li>
         </ol>
       </li>
-      <li><strong>Soaking damage</strong>: Soaking damage simply means rolling the dice in the character's soak dice pool and reducing the number of successes on the damage roll. Soaks roll cannot botch. Soak rolls are using against Difficulty 6. Soak rolls are reflexive and do not require an action.<ol>
-          <li>Mortals: Mortals can soak bashing damage with Stamina. If they have appropriate armor, the armor adds to their soak roll. They may only soak lethal damage with armor or supernatural means.</li>
-          <li>Vampires: Vampires can potentially soak all types of damage; however, the rules change depending on the damage type.<ol>
-              <li>Vampires soak bashing damage with Stamina+Fortitude <strong>and then</strong>&nbsp;halve the resulting amount of damage (rounding down). Example: A Kindred has been punched and the attacker has rolled 5 successes&nbsp;on the damage roll. The Kindred rolls their Stamina+Fortitude and receives 4 successes, reducing the amount of damage successes to 1. The Kindred then halves the 1 success, rounding down to 0, and takes no damage from the punch.</li>
-              <li>Vampires also soak lethal damage with Stamina+Fortitude. There is no halving of the damage here.</li>
-              <li>Vampires soak aggravated damage with Fortitude <strong>only</strong>. That means if a Cainite does not have Fortitude, they cannot even attempt to soak aggravated damage.</li>
+      <li><strong>Soaking damage</strong>: <strong>See above for new rules.</strong> <s>Soaking damage simply means rolling the dice in the character's soak dice pool and reducing the number of successes on the damage roll. Soaks roll cannot botch. Soak rolls are using against Difficulty 6. Soak rolls are reflexive and do not require an action.</s>
+        <ol>
+          <li><s>Mortals: Mortals can soak bashing damage with Stamina. If they have appropriate armor, the armor adds to their soak roll. They may only soak lethal damage with armor or supernatural means.</s></li>
+          <li><s>Vampires: Vampires can potentially soak all types of damage; however, the rules change depending on the damage type.</s>
+            <ol>
+              <li><s>Vampires soak bashing damage with Stamina+Fortitude <strong>and then</strong>&nbsp;halve the resulting amount of damage (rounding down). Example: A Kindred has been punched and the attacker has rolled 5 successes&nbsp;on the damage roll. The Kindred rolls their Stamina+Fortitude and receives 4 successes, reducing the amount of damage successes to 1. The Kindred then halves the 1 success, rounding down to 0, and takes no damage from the punch.</s></li>
+              <li><s>Vampires also soak lethal damage with Stamina+Fortitude. There is no halving of the damage here.</s></li>
+              <li><s>Vampires soak aggravated damage with Fortitude <strong>only</strong>. That means if a Cainite does not have Fortitude, they cannot even attempt to soak aggravated damage.</s></li>
             </ol>
           </li>
         </ol>

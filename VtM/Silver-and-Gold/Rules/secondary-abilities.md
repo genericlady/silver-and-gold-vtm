@@ -2,13 +2,23 @@
 title: Secondary Abilities
 description: These are talents, skills, and knowledges that are more specialized than the primary ones.
 published: true
-date: 2022-11-14T16:40:25.795Z
+date: 2023-07-07T03:30:13.793Z
 tags: silver and gold, rules
 editor: markdown
 dateCreated: 2021-09-14T22:51:24.676Z
 ---
 
 # Secondary Abilities
+
+
+Secondary Abilities are specializations of Primary Abilities (Talents, Skills, and Knowledges). They are acquired the same way as primary abilities, with the following notes:
+- At character creation, they cost 2 Freebie points per dot, the same as other abilities.
+- During the game, they cost 2 XP to acquire a new ability. Each additional dot costs the Current Rating in XP.
+In addition to being cheaper to acquire than Primary Abilities, Secondary Abilities can be used in two ways:
+1. As a substitute for a Primary Ability when appropriate. For example, a character who lacks any dots in Survival but has the Secondary Skill of Tracking may use their Tracking rating, with no penalties, on a roll involving tracking (usually Intelligence or Resolve + Survival).
+1. In addition to the related Primary, or, with the GM's approval, with any other Primary. For example, a person with Athletics 3 and Skiing 2 is attempting to ski down a slope; they may add their Skiing rating to the Athletics one for a total of 5 Dice (plus the appropriate Trait, of course). If they were instead hiking up the slope, they would not​ add their Skiing rating. At the GM's option, they could also use add their Skiing rating to Craft if they were attempting to repair a pair of skis. 
+
+
 
 Secondary Abilities are specializations of Primary Abilities (Talents, Skills, and Knowledges). They are acquired the same way as primary abilities, with the following notes:
 
